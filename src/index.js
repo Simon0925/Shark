@@ -11,6 +11,8 @@ import history from "./history";
 
 import "./index.css";
 
+localStorage && localStorage.removeItem("accessKey");
+
 ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
