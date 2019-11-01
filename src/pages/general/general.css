@@ -1,0 +1,15 @@
+.general{
+    width: 600px;
+    display: flex;
+    padding-left: 25em;
+    padding-top: 8em;
+    flex-direction: column;
+}
+.general-rout{
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+.general-info{
+    font-size: 20px;
+}

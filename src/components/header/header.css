@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    min-height: 120px;
+    background-color: blue;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+   
+}
+.header-nav{
+    width: 100%;
+    text-decoration: none;
+   
+
+}
+
+
+.nav__item {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .nav__link {
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .nav__link:hover{
+    color:yellow;
+  }  
+  .prof-ava{
+    width: 50px;
+    border-radius: 5px;
+  }

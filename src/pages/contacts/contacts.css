@@ -1,0 +1,43 @@
+.contact-box{
+    border: 3px solid black;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  flex-direction: row;
+  
+}
+.contact-box-content{
+    padding-left:1em ;
+}
+.contact-box-img{
+    
+    padding-top: 0.5em;
+ 
+}
+.contact-info{
+    padding-top: 5em;
+    width: 100%;
+}
+.contact-boxs{
+    display: flex;
+   
+    justify-content:center;
+
+    
+}
+.contact-h1{
+    display: flex;
+    
+    padding-top: 1em;
+    justify-content:center;
+    align-items: center;
+}
+.img-box{
+    width: 50px;
+    border-radius: 5px;
+}
